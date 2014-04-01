@@ -1,0 +1,19 @@
+<?php
+
+$s_plugin_ManageUsergroups_manage_groups = 'Manage User Groups';
+$s_plugin_ManageUsergroups_plugin_title  = 'ManageUsergroups';
+$s_plugin_ManageUsergroups_plugin_desc   = 'A prefix makes a user into a user group. The user group may be entitled as a normal user for projects, and users of the groups have then group rights. In user lists the groups are resolved into individual user.';
+
+$s_plugin_ManageUsergroups_form_title	 			= 'Settings for UserGroups';
+$s_plugin_ManageUsergroups_form_setting  			= 'Setting';
+$s_plugin_ManageUsergroups_form_value	 			= 'Value';
+$s_plugin_ManageUsergroups_form_groupname_prefix		= 'Prefix group name';
+$s_plugin_ManageUsergroups_form_assign_users_for_groups		= 'Assign group to item';
+$s_plugin_ManageUsergroups_form_assign_users_to_usergroups	= 'Assign users to user groups';
+$s_plugin_ManageUsergroups_form_select_a_group			= 'Select a group';
+$s_plugin_ManageUsergroups_form_assign_users			= 'Assign users';
+$s_plugin_ManageUsergroups_form_click_user_name_select		= 'Click a users name to select/deselect.';
+$s_plugin_ManageUsergroups_form_header_all_users		= 'All users';
+$s_plugin_ManageUsergroups_form_header_users_in_group		= 'Users in group';
+$s_plugin_ManageUsergroups_form_nested_groups			= 'Use nested groups';
+$s_plugin_ManageUsergroups_form_assign_group_threshold		= 'Assign Group to item threshold';

@@ -1,0 +1,20 @@
+<?php
+
+$s_plugin_ManageUsergroups_manage_groups = 'Benutzergruppen verwalten';
+$s_plugin_ManageUsergroups_plugin_title  = 'Benutzergruppen (ManageUsergroups)';
+$s_plugin_ManageUsergroups_plugin_desc   = 'Über ein Prefix wird aus einem Benutzer eine Benutzergruppen. Die Benutzergruppe kann wie ein normaler Benutzer für Projekte berechtigt werden; die Benutzer der Gruppen haben dann Gruppenrechte. In Benutzerlisten werden die Gruppen in einzelne Benutzer aufgelöst.';
+
+$s_plugin_ManageUsergroups_form_title	 			= 'Benutzergruppen-Einstellungen';
+$s_plugin_ManageUsergroups_form_setting  			= 'Einstellung';
+$s_plugin_ManageUsergroups_form_value	 			= 'Wert';
+$s_plugin_ManageUsergroups_form_groupname_prefix		= 'Prefix für Gruppenname';
+$s_plugin_ManageUsergroups_form_assign_users_for_groups		= 'Gruppenname zuordnen';
+$s_plugin_ManageUsergroups_form_assign_users_to_usergroups	= 'Benutzer zu Gruppen zuordnen';
+$s_plugin_ManageUsergroups_form_select_a_group			= 'Gruppe auswählen';
+$s_plugin_ManageUsergroups_form_assign_users			= 'Benutzer auswählen';
+$s_plugin_ManageUsergroups_form_click_user_name_select		= 'Klicken Sie auf einen Benutzername, um ihn hinzuzufügen bzw. zu entfernen.';
+$s_plugin_ManageUsergroups_form_header_all_users		= 'Alle Benutzer';
+$s_plugin_ManageUsergroups_form_header_users_in_group		= 'Benutzer in der Gruppe';
+$s_plugin_ManageUsergroups_form_nested_groups			= 'Untergruppen verwenden';
+$s_plugin_ManageUsergroups_form_assign_group_threshold		= 'Schwellenwert für "Gruppenname zuordnen"';
+
