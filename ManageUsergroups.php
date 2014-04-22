@@ -132,10 +132,16 @@ Class ManageUsergroupsPlugin extends MantisPlugin {
 				for( $i = 0;$i < $count;$i++ ) {
 					$row = db_fetch_array( $result );
 					//echo '<pre>'.print_r($row['username'], 1).'</pre>';
-					//if user has higher level
+					
+					//if user has its own access level
 					if(array_key_exists($row['id'], $p_chained_param)) {
-						if($p_chained_param[$row['id']]['access_level'] <= $t_user['access_level']) {
-							$t_users[$row['id']] = $t_user;
+						if($p_chained_param[$row['id']]['access_level'] < $t_user['access_level']) {
+						//if user has lower level, adjust to group level
+							$t_users[$row['id']] = $p_chained_param[$row['id']];
+							$t_users[$row['id']]['access_level'] = $t_user['access_level'];
+							continue;
+						} else {
+						//if user has higher level, do nothing
 							continue;
 						}
 					}
