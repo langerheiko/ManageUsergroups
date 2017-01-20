@@ -36,6 +36,9 @@ code:
         $t_global_access_level = access_get_global_level( $p_user_id );
     - Above this line enter the following event signal:
         $p_user_id = event_signal('EVENT_GROUP_ACCESS_HAS_BUG_LEVEL', array(array(access_get_global_level( $p_user_id ), $p_user_id, $p_project_id)));
+        if (is_array($p_user_id)) {
+            $p_user_id = $p_user_id[0][1];
+        }
 
 2) in core/access_api.php:
     - Find the function access_has_bug_level
